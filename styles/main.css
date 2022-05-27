@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Slide Show of random food images*/
+
 .general_food_images {
     position: relative;
     display: flex;
@@ -108,4 +121,45 @@ input[name="r"] {
 
 .r5:checked~.s1 {
     margin-left: -80%;
+}
+
+
+/*Statistics about our website*/
+
+.stats {
+    margin-top: -5%;
+}
+
+.restaurant-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13vw;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.restaurant-numbers-part {
+    width: 30%;
+    font-size: 55px;
+    border: 5px solid maroon;
+    border-radius: 25px;
+}
+
+.restaurant-numbers-part:hover {
+    transform: scale(1.25);
+    font-size: 65px;
+}
+
+.restaurant-stat {
+    color: maroon;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+.stat-description {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
 }
