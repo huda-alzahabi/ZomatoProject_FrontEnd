@@ -1,4 +1,5 @@
-.all {
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.general_food_images {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,24 @@
 
 .overview {
     position: relative;
+}
+
+.overview>h2 {
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.5s;
+    padding: 15px;
+    font-size: 10vh;
+}
+
+h2:hover {
+    color: brown;
+    font-size: 60px;
 }
 
 .empty {
