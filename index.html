@@ -12,7 +12,7 @@
 <body>
     <div class="loginBox" id="loginBox"> <img class="user" src="./assets/prof.jpg" height="100px" width="100px">
         <h3>Sign in here</h3>
-        <form action="login.php" method="post">
+        <form name="login" action="login.php" method="post">
             <div class="inputBox">
                 <input id="login_email" type="text" name="Email" placeholder="Email">
                 <input id="login_pass" type="password" name="Password" placeholder="Password">
@@ -25,9 +25,9 @@
         </div>
     </div>
     <div class="signupBox" id="signupBox">
-        <form action="signup.php" method="post">
+        <form name="signup" action="signup.php" method="post">
             <div class="inputBox">
-                <input id="fullname" type="text" name="fullname" placeholder="Full Name">
+                <input id="full_name" type="text" name="fullname" placeholder="Full Name">
                 <input id="signup_email" type="text" name="Email" placeholder="Email">
                 <input id="signup_pass" type="password" name="Password" placeholder="Password">
             </div>
