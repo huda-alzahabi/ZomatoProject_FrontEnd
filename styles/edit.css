@@ -100,3 +100,32 @@ h3 {
         position: center;
     }
 }
+
+/*Styles for change password*/
+
+.editBox input[type="password"],
+.editBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.editBox input[type="password"]:hover,
+.editBox input[type="password"]:hover{
+    color: #42F3FA;
+    border: 1px solid rgb(131, 66, 66);
+    ;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.editBox input[type="password"]:focus,
+.editBox input[type="password"]:focus{
+    border-bottom: 2px solid rgb(131, 66, 66);
+}
+
