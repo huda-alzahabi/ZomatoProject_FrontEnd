@@ -4,24 +4,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <script src="./scripts/login.js"></script>
     <title>Login </title>
 </head>
 
 <body>
-    <div class="loginBox"> <img class="user" src="./assets/prof.jpg" height="100px" width="100px">
+    <div class="loginBox" id="loginBox"> <img class="user" src="./assets/prof.jpg" height="100px" width="100px">
         <h3>Sign in here</h3>
         <form action="login.php" method="post">
             <div class="inputBox">
-                <input id="email" type="text" name="Email" placeholder="Email">
-                <input id="pass" type="password" name="Password" placeholder="Password">
+                <input id="login_email" type="text" name="Email" placeholder="Email">
+                <input id="login_pass" type="password" name="Password" placeholder="Password">
             </div>
             <input type="submit" name="" value="Login">
         </form>
         <a href="#">Forget Password<br> </a>
-        <div class="text-center">
-            <p>Sign-Up</p>
+        <div>
+            <p class="signup" id="signup">Sign-Up</p>
         </div>
+    </div>
+    <div class="signupBox" id="signupBox">
+        <form action="signup.php" method="post">
+            <div class="inputBox">
+                <input id="fullname" type="text" name="fullname" placeholder="Full Name">
+                <input id="signup_email" type="text" name="Email" placeholder="Email">
+                <input id="signup_pass" type="password" name="Password" placeholder="Password">
+            </div>
+            <input type="submit" name="" value="Sign Up">
+        </form>
+        <p class="back" id="back">Back</p>
 
     </div>
 </body>
