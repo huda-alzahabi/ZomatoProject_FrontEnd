@@ -10,3 +10,4 @@ function showSignUp() {
         document.getElementById("loginBox").style.display = "block";
     });
 }
+
