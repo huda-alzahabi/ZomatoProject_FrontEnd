@@ -173,7 +173,7 @@ input[name="r"] {
     position: absolute;
     margin-top: 200px;
     margin-bottom: 10px;
-    left: 10%;
+    margin-left: 14%;
     background: maroon;
     transition: 1s;
     transform-origin: right bottom;
