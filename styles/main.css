@@ -235,6 +235,33 @@ input[name="r"] {
     border-bottom-left-radius: 50px;
 }
 
+
+/*Contact Us*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.reachus {
+    position: relative;
+    left: 70%;
+    margin-top: 40px;
+    font-size: xx-large;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+.reachus>a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 900px) {
     .mobile {
         flex-direction: column;
