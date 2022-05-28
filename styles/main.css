@@ -201,3 +201,28 @@ input[name="r"] {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
+
+
+/*Styling Restaurants Section*/
+
+.restos {
+    margin-top: 50px;
+}
+
+.all_restaurants {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13vw;
+    margin: 10px 0;
+}
+
+.restaurants_set {
+    width: 30%;
+}
+
+.restaurants_set>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
