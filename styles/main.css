@@ -27,7 +27,7 @@
     }
     
     .overview>h2 {
-        margin-top: 30px;
+        margin: 20px 0;
     }
     
     h2 {
@@ -224,12 +224,15 @@
         border-bottom-left-radius: 50px;
     }
     
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 900px) {
         .mobile {
             flex-direction: column;
         }
         h2 {
-            font-size: 15vh;
+            font-size: 7vh;
+        }
+        .stats {
+            margin-top: -20%;
         }
         .restaurant-numbers-part,
         .restaurants_set {
@@ -239,5 +242,7 @@
         .heart {
             width: 180px;
             height: 80px;
+            margin-top: 80px;
+            margin-left: 15%;
         }
     }
