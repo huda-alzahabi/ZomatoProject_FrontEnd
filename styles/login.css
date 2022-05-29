@@ -49,7 +49,8 @@ h3 {
 }
 
 .loginBox input,
-.signupBox input {
+.signupBox input,
+button {
     width: 100%;
     margin-bottom: 20px
 }
@@ -73,7 +74,7 @@ h3 {
 .loginBox input[type="password"]:hover,
 .signupBox input[type="text"]:hover,
 .signupBox input[type="password"]:hover {
-    color: #42F3FA;
+    color: bisque;
     border: 1px solid rgb(131, 66, 66);
     ;
     box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
@@ -105,8 +106,7 @@ h3 {
     color: #262626;
 }
 
-.loginBox input[type="submit"],
-.signupBox input[type="submit"] {
+button {
     border: none;
     outline: none;
     height: 40px;

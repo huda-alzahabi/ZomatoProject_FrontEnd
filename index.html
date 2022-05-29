@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/login.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./scripts/login.js"></script>
     <title>Login/SignUp </title>
 </head>
@@ -13,27 +14,27 @@
 <body>
     <div class="loginBox" id="loginBox"> <img class="user" src="./assets/prof.jpg" height="100px" width="100px">
         <h3>Sign in here</h3>
-        <form name="login" action="login.php" method="post">
+        <div name="login" action="login.php" method="post">
             <div class="inputBox">
                 <input id="login_email" type="text" name="Email" placeholder="Email">
                 <input id="login_pass" type="password" name="Password" placeholder="Password">
             </div>
-            <input type="submit" name="" value="Login">
-        </form>
+            <button value="Login">Login</button>
+        </div>
         <a href="#">Forget Password<br> </a>
         <div>
             <p class="signup" id="signup">Sign-Up</p>
         </div>
     </div>
     <div class="signupBox" id="signupBox">
-        <form name="signup" action="signup.php" method="post">
+        <div name="signup">
             <div class="inputBox">
                 <input id="full_name" type="text" name="fullname" placeholder="Full Name">
                 <input id="signup_email" type="text" name="Email" placeholder="Email">
                 <input id="signup_pass" type="password" name="Password" placeholder="Password">
             </div>
-            <input type="submit" id="s" value="Sign Up">
-        </form>
+            <button id="s" value="Sign Up">Sign Up</button>
+        </div>
         <p class="back" id="back">Back</p>
 
     </div>
