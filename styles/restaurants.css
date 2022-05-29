@@ -75,7 +75,7 @@
       width: 20%;
       border-radius: 5px;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       flex-direction: column;
       padding: 25px;
   }
@@ -113,6 +113,8 @@
       font-size: 40px;
       color: #111;
       padding: 10px;
+      float: right;
+      justify-content: center;
       transition: all 0.2s ease;
   }
   
@@ -124,10 +126,6 @@
   input:checked~label {
       color: crimson;
   }
-  /* input#rate-5:checked~label {
-      color: crimson;
-      text-shadow: 0 0 20px #952;
-  } */
   
   .container form {
       display: none;
@@ -204,5 +202,9 @@
           text-align: center;
           padding-left: 20px;
           height: fit-content;
+      }
+      .container {
+          width: fit-content;
+          padding: 10px;
       }
   }
