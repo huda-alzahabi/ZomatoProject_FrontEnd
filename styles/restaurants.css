@@ -1,0 +1,208 @@
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  html {
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+  }
+  
+  body {
+      margin: 0px;
+      min-height: 100%;
+      width: 100%;
+      background-image: url("../assets/background.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      place-items: center;
+      text-align: center;
+  }
+  
+  .wrapper {
+      display: inline-flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      height: 70%;
+  }
+  
+  .img {
+      height: 70%;
+      width: 30%;
+  }
+  
+  .img>img {
+      width: 100%;
+      display: block;
+  }
+  
+  .info {
+      width: 70%;
+      height: 70%;
+      color: black;
+      font-size: xx-large;
+      font-family: 'Acme', sans-serif;
+  }
+  
+  .info>h2,
+  .info>p {
+      margin: auto;
+  }
+  
+  h2,
+  h3 {
+      text-align: center;
+      font-size: 6vh;
+      font-style: italic;
+  }
+  
+  h2 {
+      padding-top: 50px;
+  }
+  
+  p {
+      padding-right: 20px;
+  }
+  /*Rating*/
+  
+  .rating {
+      width: 100%;
+      justify-content: center;
+  }
+  
+  .container {
+      background-color: rgb(150, 128, 69);
+      display: inline-block;
+      width: 20%;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 25px;
+  }
+  
+  .container .post {
+      display: none;
+  }
+  
+  .container .text {
+      font-size: 25px;
+      color: #111;
+      font-weight: 500;
+  }
+  
+  .container .edit {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      font-size: 16px;
+      color: #111;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+  .container .edit:hover {
+      text-decoration: underline;
+  }
+  
+  .container .star-widget input {
+      display: none;
+  }
+  
+  .star-widget label {
+      margin-bottom: 20px;
+      font-size: 40px;
+      color: #111;
+      padding: 10px;
+      transition: all 0.2s ease;
+  }
+  
+  input:not(:checked)~label:hover,
+  input:not(:checked)~label:hover~label {
+      color: bisque;
+  }
+  
+  input:checked~label {
+      color: crimson;
+  }
+  /* input#rate-5:checked~label {
+      color: crimson;
+      text-shadow: 0 0 20px #952;
+  } */
+  
+  .container form {
+      display: none;
+  }
+  
+  input:checked~form {
+      display: block;
+  }
+  
+  form header {
+      width: 100%;
+      font-size: 25px;
+      color: bisque;
+      font-weight: 500;
+      margin: 5px 0 20px 0;
+      text-align: center;
+      transition: all 0.2s ease;
+  }
+  
+  form .textarea {
+      height: 100px;
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  form .textarea textarea {
+      height: 100%;
+      width: 100%;
+      outline: none;
+      color: #111;
+      border: 1px solid #111;
+      background: bisque;
+      padding: 10px;
+      font-size: 17px;
+      resize: none;
+  }
+  
+  .textarea textarea:focus {
+      border-color: #111;
+  }
+  
+  form .btn {
+      height: 45px;
+      width: 100%;
+      margin: 15px 0;
+  }
+  
+  form .btn button {
+      height: 100%;
+      width: 100%;
+      border: 1px solid #444;
+      outline: none;
+      background: bisque;
+      color: #999;
+      font-size: 17px;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+  
+  form .btn button:hover {
+      background: #1b1b1b;
+  }
+  
+  @media screen and (max-width: 900px) {
+      .wrapper {
+          flex-direction: column;
+      }
+      .info {
+          width: 100%;
+      }
+      p {
+          text-align: center;
+          padding-left: 20px;
+          height: fit-content;
+      }
+  }
