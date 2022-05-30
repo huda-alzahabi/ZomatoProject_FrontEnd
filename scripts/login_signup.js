@@ -31,10 +31,10 @@ function showSignUp() {
                 url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
                 data: vdata,
             })
-            // .then(function(response) {
-            //     console.log(response);
-            //     location.href = "../main_page.html";
-            // })
+            .then(function(response) {
+                console.log(response);
+                location.href = "../main_page.html";
+            })
             .catch(function(response) {
                 console.log(response);
             });
@@ -43,8 +43,8 @@ function showSignUp() {
 
 function loginToMain() {
     let data = new FormData();
-    data.append("email", document.getElementById("login_email").value);
-    data.append("password", document.getElementById("login_pass").value);
+    data.append("login_email", document.getElementById("login_email").value);
+    data.append("login_pass", document.getElementById("login_pass").value);
     console.log(data);
     axios({
             method: "post",
