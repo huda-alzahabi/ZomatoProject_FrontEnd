@@ -1,6 +1,6 @@
 /*Check whether the user wants to signup or login and act accordingly*/
 function loginSignup() {
-    document.getElementById("signup").addEventListener("click", showSignUp);
+    document.getElementById("register").addEventListener("click", showSignUp);
     document.getElementById("login").addEventListener("click", loginToMain);
 }
 

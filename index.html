@@ -15,14 +15,14 @@
         <h2>Sign in here</h2>
         <div name="login" action="login.php" method="post">
             <div class="inputBox">
-                <input id="login_email" type="text" name="Email" placeholder="Email">
-                <input id="login_pass" type="password" name="Password" placeholder="Password">
+                <label>Email:</label> <input id="login_email" type="text">
+                <label>Password:</label><input id="login_pass" type="password">
             </div>
             <button value="Login" id="login">Login</button>
         </div>
-        <a href="#">Forget Password<br> </a>
         <div>
-            <p class="signup" id="signup">Sign-Up</p>
+            <p class="no_account">Don't have an account?</p>
+            <p class="signup" id="register">Register</p>
         </div>
     </div>
 
@@ -30,10 +30,11 @@
 
     <div class="signupBox" id="signupBox">
         <div name="signup">
+            <h1>Create New Account</h1>
             <div class="inputBox">
-                <input id="full_name" type="text" name="fullname" placeholder="Full Name">
-                <input id="signup_email" type="text" name="Email" placeholder="Email">
-                <input id="signup_pass" type="password" name="Password" placeholder="Password">
+                <label>Full Name:</label> <input id="full_name" type="text" name="fullname">
+                <label>Email:</label> <input id="signup_email" type="text" name="Email">
+                <label>Password:</label> <input id="signup_pass" type="password" name="Password">
             </div>
             <button id="s" value="Sign Up">Sign Up</button>
         </div>

@@ -81,6 +81,7 @@
   .back {
       cursor: pointer;
       font-size: 20px;
+      font-weight: bold;
   }
   
   .signupBox {
@@ -108,23 +109,22 @@
       cursor: pointer;
   }
   
-  .loginBox a,
-  .signupBox a {
-      color: burlywood;
-      font-size: 14px;
-      font-weight: bold;
-      text-decoration: none;
-      text-align: center;
-      display: block;
-  }
-  
-  a:hover {
-      color: rgb(143, 75, 75);
-  }
-  
   p {
       color: brown;
       text-align: center;
+  }
+  
+  .no_account {
+      color: black;
+  }
+  
+  h1 {
+      color: brown;
+      text-align: center;
+  }
+  
+  label {
+      font-size: 18px;
   }
   
   @media screen and (max-width: 900px) {
