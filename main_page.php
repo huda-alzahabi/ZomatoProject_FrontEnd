@@ -101,5 +101,6 @@
 
             </div>
         </div>
-    </section>
+    </section>    <?php include "./footer.html" ?>
+
 </body>
