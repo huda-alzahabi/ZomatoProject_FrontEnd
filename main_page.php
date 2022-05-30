@@ -100,7 +100,8 @@
 
             </div>
         </div>
-    </section>    <?php include "./footer.html" ?>
+    </section>
+      <?php include "./footer.html" ?>
     <script src="./scripts/main.js"></script>
 
 </body>

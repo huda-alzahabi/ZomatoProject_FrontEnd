@@ -50,6 +50,7 @@
             </div>
         </div>
     </div>
+     <?php include "./footer.html" ?>
     <script src="./scripts/restaurant.js"></script>
 </body>
 </html>
