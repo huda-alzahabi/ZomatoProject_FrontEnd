@@ -16,7 +16,6 @@
         <div class="img"><img src="./assets/kfc.png" id="img"></div>
         <div class="info">
             <h2 id="name">KFC</h2>
-            <h3>American Cuisine</h3>
             <p id="description">KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with
                 22,621 locations globally in 150 countries as of December 2019. The chain is a subsidiary of Yum! Brands, a restaurant company that also owns the Pizza Hut, Taco Bell and WingStreet chains.</p>
         </div>
