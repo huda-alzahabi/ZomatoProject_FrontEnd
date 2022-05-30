@@ -15,9 +15,9 @@
         <h3>ADD a RESTAURANT</h3>
         <form method="post" enctype="multipart/form-data">
             <div class="inputBox">
-                <input id="name" type="text" name="name" placeholder="Name">
-                <input id="description" type="text" name="desc" placeholder="Description">
-                <input type="file" name="img" />
+                <label >Name:</label><input id="name" type="text" name="name" >
+                <label >Description:</label><input id="description" type="text" name="desc" >
+                <label >Image:</label><input id="image" type="file" name="img"/>
 
 
             </div>
