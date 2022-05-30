@@ -41,7 +41,7 @@ h2 {
     margin-top: 10px;
     transition: 0.5s;
     padding: 15px;
-    font-size: 10vh;
+    font-size: 8vh;
 }
 
 h2:hover {
@@ -242,7 +242,7 @@ input[name="r"] {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 80%;
     margin-top: 70px;
 }
 
