@@ -20,3 +20,13 @@ p {
     flex-direction: row;
     float: right;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        width: max-content;
+    }
+    .links {
+        width: 50%;
+    }
+}
