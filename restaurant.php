@@ -37,10 +37,10 @@
                 <form action="#">
                     <header></header>
                     <div class="textarea">
-                        <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                        <textarea cols="30" placeholder="Describe your experience.." id="comment"></textarea>
                     </div>
-                    <div class="btn">
-                        <button type="submit">Submit</button>
+                    <div class="btn" >
+                        <button id="button" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
