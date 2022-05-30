@@ -205,7 +205,7 @@ input[name="r"] {
     height: 160px;
     position: absolute;
     margin-top: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
     margin-left: 14%;
     background: maroon;
     transition: 1s;
