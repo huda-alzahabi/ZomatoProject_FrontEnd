@@ -5,21 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/login.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./scripts/login.js"></script>
     <title>Login/SignUp </title>
 </head>
 
 <body>
-    <div class="loginBox" id="loginBox"> <img class="user" src="./assets/prof.jpg" height="100px" width="100px">
-        <h3>Sign in here</h3>
+    <div class="loginBox" id="loginBox"> <img class="user" src="./assets/pizza1.png" height="100px" width="100px">
+        <h2>Sign in here</h2>
         <div name="login" action="login.php" method="post">
             <div class="inputBox">
                 <input id="login_email" type="text" name="Email" placeholder="Email">
                 <input id="login_pass" type="password" name="Password" placeholder="Password">
             </div>
-            <button value="Login">Login</button>
+            <button value="Login" id="login">Login</button>
         </div>
         <a href="#">Forget Password<br> </a>
         <div>
@@ -38,4 +35,8 @@
         <p class="back" id="back">Back</p>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/login_signup.js"></script>
+
 </body>
