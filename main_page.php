@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <?php include "./header.html" ?>
     <!--Section 1 : Images Slider-->
     <div class="general_food_images container">
         <div class="overview">

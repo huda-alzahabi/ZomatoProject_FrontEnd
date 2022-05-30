@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <?php include "./header.html" ?>
     <div class="bg wrapper">
         <div class="img"><img src="./assets/kfc.png" id="img"></div>
         <div class="info">
