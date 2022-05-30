@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("../assets/loginbg.jpg") no-repeat;
+    background: url("../assets/foodbg1.jpg") no-repeat;
     height: 100vh;
     font-family: sans-serif;
     background-size: cover;
@@ -10,25 +10,14 @@ body {
     overflow: hidden
 }
 
-@media screen and (max-width: 900px) {
-    body {
-        background-size: cover;
-        position: center;
-    }
-}
-
-#particles-js {
-    height: 100%
-}
-
 .loginBox,
 .signupBox {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    min-height: 500px;
+    width: 450px;
+    min-height: 600px;
     background: black;
     border-radius: 10px;
     padding: 40px;
@@ -41,7 +30,7 @@ body {
     margin-bottom: 20px
 }
 
-h3 {
+h2 {
     margin: 0;
     padding: 0 0 20px;
     color: brown;
@@ -62,10 +51,10 @@ button {
     border: none;
     border-bottom: 2px solid #262626;
     outline: none;
-    height: 40px;
+    height: 60px;
     color: #fff;
     background: transparent;
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 20px;
     box-sizing: border-box
 }
@@ -90,6 +79,7 @@ button {
 .signup,
 .back {
     cursor: pointer;
+    font-size: 20px;
 }
 
 .signupBox {
@@ -109,8 +99,8 @@ button {
 button {
     border: none;
     outline: none;
-    height: 40px;
-    font-size: 16px;
+    height: 60px;
+    font-size: 20px;
     background: brown;
     color: #fff;
     border-radius: 20px;
@@ -134,4 +124,11 @@ a:hover {
 p {
     color: brown;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-size: cover;
+        position: center;
+    }
 }
