@@ -11,9 +11,9 @@
       margin: 0px;
       min-height: 100%;
       width: 100%;
-      background-image: url("../assets/background.jpg");
+      background-image: url("../assets/woodenbg.avif");
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       background-size: cover;
       place-items: center;
       text-align: center;
@@ -76,7 +76,6 @@
   .container {
       background-color: rgb(204, 177, 103);
       display: inline-block;
-      width: 350px;
       border-radius: 5px;
       align-items: center;
       justify-content: space-between;
