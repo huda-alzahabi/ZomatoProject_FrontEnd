@@ -2,17 +2,31 @@
 
 .footer {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
     background-color: burlywood;
     color: #fff;
     font-weight: bold;
 }
 
-.links {
-    margin: auto;
+p {
     text-align: center;
-    width: 20%;
+    width: 90%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
     flex-direction: row;
     float: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        width: max-content;
+    }
+    .links {
+        width: 50%;
+    }
 }
