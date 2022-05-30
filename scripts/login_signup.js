@@ -23,18 +23,18 @@ function showSignUp() {
 
         let vdata = new FormData();
         vdata.append("full_name", document.getElementById("full_name").value);
-        vdata.append("email", document.getElementById("signup_email").value);
-        vdata.append("password", document.getElementById("signup_pass").value);
+        vdata.append("signup_email", document.getElementById("signup_email").value);
+        vdata.append("signup_pass", document.getElementById("signup_pass").value);
 
         axios({
                 method: "post",
                 url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
                 data: vdata,
             })
-            .then(function(response) {
-                console.log(response);
-                location.href = "../main_page.html";
-            })
+            // .then(function(response) {
+            //     console.log(response);
+            //     location.href = "../main_page.html";
+            // })
             .catch(function(response) {
                 console.log(response);
             });
