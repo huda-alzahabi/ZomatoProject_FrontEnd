@@ -1,7 +1,4 @@
 function loginSignup() {
-    //   let username = document.getElementById("full_name").value;
-    //   let email = document.getElementById("signup_email").value;
-    //   let password = document.getElementById("signup_pass").value;
     document.getElementById("signup").addEventListener("click", showSignUp);
     document.getElementById("login").addEventListener("click", loginToMain);
 }
@@ -30,17 +27,17 @@ function showSignUp() {
         vdata.append("password", document.getElementById("signup_pass").value);
 
         axios({
-            method: "post",
-            url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
-            data: vdata,
-        });
-        //         .then(function(response) {
-        //             console.log(response);
-        //             location.href = "../main_page.html";
-        //         })
-        //         .catch(function(response) {
-        //             console.log(response);
-        //         });
+                method: "post",
+                url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
+                data: vdata,
+            })
+            .then(function(response) {
+                console.log(response);
+                location.href = "../main_page.html";
+            })
+            .catch(function(response) {
+                console.log(response);
+            });
     });
 }
 
