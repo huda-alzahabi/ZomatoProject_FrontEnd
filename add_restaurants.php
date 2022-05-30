@@ -9,27 +9,28 @@
 </head>
 <body>
 
-    <?php include "adminHeader.html" ?>
+    <?php include "admin_header.html" ?>
 
     <div class="editBox" id="editBox">
         <h3>ADD a RESTAURANT</h3>
         <form method="post" enctype="multipart/form-data">
             <div class="inputBox">
                 <input id="name" type="text" name="name" placeholder="Name">
-                <input id="desc" type="text" name="desc" placeholder="Description">
-                <input type="file" name="img" required="required"/>
-                
-              
+                <input id="description" type="text" name="desc" placeholder="Description">
+                <input type="file" name="img" />
+
+
             </div>
-            <input class="submit" type="submit" value="Add Restaurant" name="sbmt"/>
-           
+            <button class="submit" id="submit">Add Restaurant</button>
+
         </form>
-       
-    </div>   
-       
-    
-    <script src="edit.js"></script>
-   
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/admin_apis.js"></script>
+
 </body>
 
 </html>
