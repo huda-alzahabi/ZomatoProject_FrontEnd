@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <?php include "./header.html" ?>
     <div class="editBox" id="editBox"> <img class="userImg" src="./assets/pizza1.png" height="100px" width="100px">
         <h2>EDIT PROFILE</h2>
         <form>
@@ -20,10 +21,6 @@
             </div>
             <button class="update">Update</button>
         </form>
-
-
-
-
         <script src="edit.js"></script>
 </body>
 
