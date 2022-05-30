@@ -75,8 +75,8 @@
 
             </div>
             <div class="restaurants_set">
-                <img src="./assets/kfc.png" alt="">
-                <h2>KFC</h2>
+                <img src="./assets/Latavola.jpg" alt="">
+                <h2>La Tavola</h2>
 
             </div>
             <div class="restaurants_set">
