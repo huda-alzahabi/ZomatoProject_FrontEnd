@@ -1,4 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  /*Utilities*/
+  
   html {
       margin: 0px;
       height: 100%;
@@ -24,6 +26,7 @@
       width: 100%;
       height: 70%;
   }
+  /*Restaurant display image*/
   
   .img {
       height: 70%;
@@ -34,6 +37,7 @@
       width: 100%;
       display: block;
   }
+  /*Restaurant Information*/
   
   .info {
       width: 70%;

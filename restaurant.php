@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/restaurants.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="./scripts/restaurant.js"></script>
     <title>Restaurant</title>
 </head>
 
 <body>
     <?php include "./header.html" ?>
+
     <div class="bg wrapper">
         <div class="img"><img src="./assets/kfc.png" id="img"></div>
         <div class="info">
@@ -50,6 +50,6 @@
             </div>
         </div>
     </div>
+    <script src="./scripts/restaurant.js"></script>
 </body>
-
 </html>

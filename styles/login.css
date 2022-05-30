@@ -9,6 +9,7 @@
       background-position: center;
       overflow: hidden
   }
+  /*Login and Signup Boxes*/
   
   .loginBox,
   .signupBox {
@@ -24,7 +25,7 @@
       box-sizing: border-box
   }
   
-  .user {
+  .image {
       margin: 0 auto;
       display: block;
       margin-bottom: 20px

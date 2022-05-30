@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
-    <script src="./scripts/main.js"></script>
     <title>Main Page</title>
 </head>
 
@@ -102,5 +101,6 @@
             </div>
         </div>
     </section>    <?php include "./footer.html" ?>
+    <script src="./scripts/main.js"></script>
 
 </body>
