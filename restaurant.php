@@ -21,7 +21,8 @@
     </div>
 
     <div class="rating">
-        <div class="container">
+        <h2 id="rateus" class="rateus">Rate us!</h2>
+        <div class="container" id="container">
             <div class="star-widget">
                 <input type="radio" name="rate" id="rate-5">
                 <label for="rate-5" class="fas fa-star"></label>
