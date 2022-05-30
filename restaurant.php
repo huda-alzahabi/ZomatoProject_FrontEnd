@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/restaurants.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="./scripts/restaurant.js"></script>
-    <title>Main Page</title>
+    <title>Restaurant</title>
 </head>
 
 <body>
