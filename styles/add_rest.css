@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../assets/foodbg1.jpg") no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden
+}
+
+.editBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    min-height: 300px;
+    margin-top: 70px;
+    background: burlywood;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+.editBox input[type="text"],
+.editBox input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.editBox input[type="file"]{
+    border: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+.editBox input[type="text"]:hover,
+.editBox input[type="text"]:hover,
+.editBox input[type="file"]:hover{
+    color: black;
+    border: 1px solid rgb(131, 66, 66);
+    ;
+    box-shadow: 0 0 5px rgb(200, 220, 140), 0 0 10px rgb(200, 220, 140), 0 0 15px rgb(200, 220, 140), 0 2px 0 black
+}
+
+.editBox input[type="text"]:focus,
+.editBox input[type="text"]:focus,
+.editBox input[type="text"]:focus{
+    border-bottom: 2px solid rgb(131, 66, 66);
+}
+
+.inputBox span {
+    position: absolute;
+    top: 10px;
+    color: #262626;
+}
+
+.update {
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: brown;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+.userImg {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px
+}
+
+.editBox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.submit{
+    color: brown;
+    text-align: center;
+}
+
+.editBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: brown;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background-size: cover;
+        position: center;
+    }
+}
+
+/*Styles for change password*/
+
+.editBox input[type="password"],
+.editBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.editBox input[type="password"]:hover,
+.editBox input[type="password"]:hover{
+    color: #42F3FA;
+    border: 1px solid rgb(131, 66, 66);
+    ;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.editBox input[type="password"]:focus,
+.editBox input[type="password"]:focus{
+    border-bottom: 2px solid rgb(131, 66, 66);
+}
+
