@@ -79,6 +79,11 @@
       justify-content: center;
   }
   
+  .thanks {
+      display: none;
+      margin-top: 10%;
+  }
+  
   .container {
       background-color: burlywood;
       display: none;

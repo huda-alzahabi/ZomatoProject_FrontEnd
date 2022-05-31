@@ -11,7 +11,7 @@
 
 <body>
     <?php include "./header.html" ?>
-
+    <h2 class="rateus thanks" id="thanks"> Thank you for your feedback!</h2>
     <div class="resto">
         <div class="info">
             <h2 id="name">Chopsticks</h2>
@@ -47,6 +47,8 @@
         </div>
     </div>
      <?php include "./footer.html" ?>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./scripts/restaurant.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ function rateUs() {
     });
 
     /*When the user submits rate and review, send them to the database*/
-    document.getElementById("button").addEventListener("click", function() {
+    document.getElementById("button").addEventListener("click", function(e) {
         /*Counting stars rate submitted by the user*/
         let star_count = 0;
         var radios = document.getElementsByName("rate");
@@ -26,16 +26,17 @@ function rateUs() {
         data.append("rate", rate);
         data.append("comment", comment);
         axios({
-                method: "post",
-                url: "http://localhost:8080/ZomatoProject_BackEnd/reviews.php",
-                data: data,
-            })
-            .then(function(response) {
-                console.log(response);
-            })
-            .catch(function(response) {
-                console.log(response);
-            });
+            method: "post",
+            url: "http://localhost:8080/ZomatoProject_BackEnd/reviews.php",
+            data: data,
+        }).then(function(response) {
+            let result = response.data;
+            let message = result.status;
+            if (message == true) {
+                document.getElementById("container").style.display = "none";
+                document.getElementById("thanks").style.display = "block";
+            }
+        });
     });
 }
 rateUs();
