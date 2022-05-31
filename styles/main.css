@@ -202,6 +202,13 @@ input[name="r"] {
     border-radius: 15px;
 }
 
+a>h5 {
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+    margin: 15px;
+}
+
 
 /*Animating Heart*/
 
