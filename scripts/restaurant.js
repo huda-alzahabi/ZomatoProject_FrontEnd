@@ -1,8 +1,14 @@
-function viewRestaurant() {
+function viewResto() {
+    var para = new URLSearchParams(window.location.search);
+    var restaurant_id = para.get("KEY");
+    console.log(restaurant_id);
+    let url = "http://localhost:8080/ZomatoProject_BackEnd/main.php";
+    url += "?restaurant_id=" + restaurant_id;
     axios({
         method: "GET",
-        url: "http://localhost/ZomatoProject_BackEnd/main.php",
+        url,
     }).then(function(response) {
+        console.log(response);
         let result = response.data;
         let message = result.status;
         let name = result.name;
@@ -57,4 +63,4 @@ function rateUs() {
         });
     });
 }
-viewRestaurant();
+viewResto();
