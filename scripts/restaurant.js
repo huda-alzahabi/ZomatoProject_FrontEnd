@@ -32,7 +32,7 @@ function rateUs() {
         }).then(function(response) {
             let result = response.data;
             let message = result.status;
-            if (message == true) {
+            if (message == "Message Sent!") {
                 document.getElementById("container").style.display = "none";
                 document.getElementById("thanks").style.display = "block";
             }
