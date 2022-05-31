@@ -40,8 +40,12 @@ function showSignUp() {
             let result = response.data;
             /*When logged in check if he's an admin or user and direct him to the next page accordingly*/
             let type = result.type;
-            if (type == 1) location.href = "../admin_page.html";
-            else location.href = "../main_page.html";
+            if (type == 1) {
+                location.href = "../admin_page.html";
+            } else {
+                location.href = "../main_page.html";
+            }
+            localStorage.setItem("user_id", result.id);
         });
     });
 }
