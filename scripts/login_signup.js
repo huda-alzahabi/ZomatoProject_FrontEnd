@@ -33,17 +33,16 @@ function showSignUp() {
         data.append("signup_pass", signup_pass);
 
         axios({
-                method: "post",
-                url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
-                data: data,
-            })
-            .then(function(response) {
-                console.log(response);
-                location.href = "../main_page.html";
-            })
-            .catch(function(response) {
-                console.log(response);
-            });
+            method: "post",
+            url: "http://localhost:8080/ZomatoProject_BackEnd/signup.php",
+            data: data,
+        }).then(function(response) {
+            let result = response.data;
+            /*When logged in check if he's an admin or user and direct him to the next page accordingly*/
+            let type = result.type;
+            if (type == 1) location.href = "../admin_page.html";
+            else location.href = "../main_page.html";
+        });
     });
 }
 
