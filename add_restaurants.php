@@ -27,7 +27,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./scripts/admin_apis.js"></script>
+    <script src="./scripts/add_restaurants.js"></script>
 
 </body>
 

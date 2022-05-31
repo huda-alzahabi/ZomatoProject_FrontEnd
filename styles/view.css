@@ -76,3 +76,19 @@ h3 {
 .decline:hover {
   background-color: #b5b5b5;
 }
+
+
+.addrest{
+  background-color: rgb(232, 176, 103);
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  
+}
