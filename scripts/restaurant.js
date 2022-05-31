@@ -30,6 +30,7 @@ function rateUs() {
             url: "http://localhost:8080/ZomatoProject_BackEnd/reviews.php",
             data: data,
         }).then(function(response) {
+            /*If the review is sent, thank the user*/
             let result = response.data;
             let message = result.status;
             if (message == "Message Sent!") {
