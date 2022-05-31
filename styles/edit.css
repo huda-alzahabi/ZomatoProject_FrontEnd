@@ -15,8 +15,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 350px;
-      height: 450px;
+      width: 450px;
+      min-height: 600px;
       background: burlywood;
       border-radius: 10px;
       padding: 40px;
