@@ -69,18 +69,18 @@
     <!--Section 3: Restaurants-->
     <section class="restos container">
         <div class="all_restaurants mobile">
-            <div class="restaurants_set">
-                <img src="./assets/chopsticks.png" alt="">
+            <div class="restaurants_set" >
+                <img src="./assets/chopsticks.png" id="0">
                 <h2>Chopsticks</h2>
 
             </div>
-            <div class="restaurants_set">
-                <img src="./assets/Latavola.jpg" alt="">
+            <div class="restaurants_set" >
+                <img src="./assets/Latavola.jpg" id="1">
                 <h2>La Tavola</h2>
 
             </div>
-            <div class="restaurants_set">
-                <img src="./assets/pizzanini.jpg" alt="">
+            <div class="restaurants_set" >
+                <img src="./assets/pizzanini.jpg"id="2" >
                 <h2>Pizzanini</h2>
 
             </div>
