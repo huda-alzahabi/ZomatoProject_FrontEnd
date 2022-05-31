@@ -1,3 +1,20 @@
+function viewRestaurant() {
+    axios({
+        method: "GET",
+        url: "http://localhost/ZomatoProject_BackEnd/main.php",
+    }).then(function(response) {
+        let result = response.data;
+        let message = result.status;
+        let name = result.name;
+        let description = result.description;
+        if (message == "Message Sent!") {
+            document.getElementById("name").innerHTML = name;
+            document.getElementById("description").innerHTML = description;
+        }
+    });
+    rateUs();
+}
+
 function rateUs() {
     /*When the user clicks rate us, the stars will appear so he can submit the rate*/
     document.getElementById("rateus").addEventListener("click", function() {
@@ -40,4 +57,4 @@ function rateUs() {
         });
     });
 }
-rateUs();
+viewRestaurant();

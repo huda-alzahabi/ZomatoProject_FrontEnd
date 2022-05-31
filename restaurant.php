@@ -12,8 +12,8 @@
 <body>
     <?php include "./header.html" ?>
     <h2 class="rateus thanks" id="thanks"> Thank you for your feedback!</h2>
-    <div class="resto">
-        <div class="info">
+    <div class="resto" >
+        <div class="info" id="info">
             <h2 id="name">Chopsticks</h2>
             <p id="description">Chopsticks serves up a contemporary twist on Chinese food. Here authentic flavors combine in a unique, casual yet refined setting. The ambiance is relaxing and welcoming, making Chopsticks ideal for business meals, family outings, lunch with friends and romantic dinners.</p>
         </div>
