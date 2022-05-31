@@ -63,7 +63,8 @@ function loginToMain() {
         if (type == 1) {
             location.href = "../admin_page.html";
         } else {
-            location.href = "../main_page.html";
+            location.href =
+                "http://localhost:8080/ZomatoProject_FrontEnd/main_page.php";
         }
         localStorage.setItem("user_id", result.id);
     });
