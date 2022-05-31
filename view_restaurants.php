@@ -19,7 +19,7 @@
 
 
   <div id="view" >
-    <h3>View Restaurants</h3>
+    <h3>View Restaurants <button id="href" class="addrest"> Add Restaurants</button></h3>
 
 
   
