@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4e4e4;
 }
 
 .header {
@@ -114,13 +115,13 @@ body {
     background-color: burlywood;
     overflow-x: hidden;
     padding-top: 20px;
+    
 }
 
 
 /* Style the sidenav links and the dropdown button */
 
-.sidenav a,
-.dropdown-btn {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -132,7 +133,14 @@ body {
     text-align: left;
     cursor: pointer;
     outline: none;
+    margin-top: 50px;
+    padding-left: 40px;
+    font-weight: bold;
+    
+    
+    
 }
+
 
 
 /* On mouse-over */
