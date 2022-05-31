@@ -29,6 +29,8 @@
         <th id="id">ID</th>
         <th id="stars">Stars</th>
         <th id="reviews">Reviews</th>
+        <th id="restaurant_id">Restaurant Id</th>
+        <th id = "monitor"> <button class="accept">Accept</button><button class="decline">Decline</button></th>
       </tr>
 
 </table>
