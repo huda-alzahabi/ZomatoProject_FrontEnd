@@ -23,3 +23,6 @@ function viewRestaurants(){
   
   }
   viewRestaurants();
+
+  document.getElementById("href").addEventListener("click", function(){
+    location.href = "./add_restaurants.php"});
