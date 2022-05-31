@@ -19,7 +19,7 @@
 
 
   <div id="view" >
-    <h3>View Reviews</h3>
+    <h3>View Restaurants</h3>
 
 
   
@@ -27,8 +27,8 @@
     <table id = "tab" class="tab">
       <tr>
         <th id="id">ID</th>
-        <th id="stars">Stars</th>
-        <th id="reviews">Reviews</th>
+        <th id="name">Name</th>
+        <th id="description">Description</th>
       </tr>
 
 </table>
@@ -37,6 +37,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="scripts/view_reviews.js"></script>
+  <script src="scripts/view_restaurants.js"></script>
 </body>
 </html>
