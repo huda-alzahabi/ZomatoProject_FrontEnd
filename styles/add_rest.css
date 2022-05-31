@@ -10,15 +10,6 @@ body {
     overflow: hidden
 }
 
-.added {
-    display: none;
-    margin-top: 10%;
-    cursor: pointer;
-    font-size: 10vh;
-    font-weight: bold;
-    margin-bottom: 10%;
-    color: burlywood;
-}
 
 .editBox {
     position: absolute;

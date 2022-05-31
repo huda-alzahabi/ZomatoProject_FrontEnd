@@ -10,11 +10,10 @@
 <body>
 
     <?php include "admin_header.html" ?>
-
     <div class="editBox" id="editBox">
         <h3>ADD a RESTAURANT</h3>
         <form method="post" enctype="multipart/form-data">
-            <h2 class="added" id="added"> Restaurant Added!</h2>
+           
             <div class="inputBox">
                 <label >Name:</label><input id="name" type="text" name="name" >
                 <label >Description:</label><input id="description" type="text" name="desc" >

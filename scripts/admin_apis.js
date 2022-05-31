@@ -1,5 +1,5 @@
 
-
+document.getElementById("submit").addEventListener("click", addRestaurants());
 //addRestaurants() Allows the admin to add resaturants
 function addRestaurants() {
     /*If the user clicks on add restaurant*/
@@ -36,8 +36,8 @@ function addRestaurants() {
             let result = response.data;
             let message = result.status;
             if (message == "Message Sent!") {
-                document.getElementById("container").style.display = "none";
-                document.getElementById("thanks").style.display = "block";
+             alert("Restaurant Added!");
+                
             }
         });
     });
