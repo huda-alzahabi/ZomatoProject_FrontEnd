@@ -13,6 +13,10 @@ p {
     width: 90%;
 }
 
+i {
+    color: white;
+}
+
 .links {
     display: flex;
     justify-content: space-between;
