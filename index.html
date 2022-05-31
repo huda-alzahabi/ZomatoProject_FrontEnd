@@ -15,8 +15,8 @@
         <h2>Sign in here</h2>
         <div name="login" action="login.php" method="post">
             <div class="inputBox">
-                <label>Email:</label> <input id="login_email" type="text">
-                <label>Password:</label><input id="login_pass" type="password">
+                <label>Email:</label> <input id="login_email" type="text" required="required">
+                <label>Password:</label><input id="login_pass" type="password" required="required">
             </div>
             <button value="Login" id="login">Login</button>
         </div>
@@ -32,9 +32,9 @@
         <div name="signup">
             <h1>Create New Account</h1>
             <div class="inputBox">
-                <label>Full Name:</label> <input id="full_name" type="text" name="fullname">
-                <label>Email:</label> <input id="signup_email" type="text" name="Email">
-                <label>Password:</label> <input id="signup_pass" type="password" name="Password">
+                <label>Full Name:</label> <input id="full_name" type="text" name="fullname" required="required">
+                <label>Email:</label> <input id="signup_email" type="text" name="Email" required="required">
+                <label>Password:</label> <input id="signup_pass" type="password" name="Password" required="required">
             </div>
             <button id="s" value="Sign Up">Sign Up</button>
         </div>
