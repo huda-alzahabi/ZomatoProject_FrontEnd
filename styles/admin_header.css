@@ -1,3 +1,7 @@
+
+
+
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,26 +46,12 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 800px) {
-    .header {
-        display: block;
-    }
-    img {
-        height: 150px;
-        width: 300px;
-    }
-    .header-right {
-        display: flex;
-        flex-direction: row;
-        max-width: min-content;
-    }
-}
 
 .dropbtn {
     background-color: burlywood;
     color: black;
     padding: 12px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -71,6 +61,8 @@ body {
     position: relative;
     display: inline-block;
 }
+
+.dropdown-content {}
 
 .dropdown {
     position: relative;
@@ -84,6 +76,8 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
+
+.dropdown-content a {}
 
 .dropdown-content a {
     font-weight: lighter;
@@ -202,5 +196,21 @@ body {
     }
     .sidenav a {
         font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .header {
+        display: block;
+    }
+    img {
+        height: 150px;
+        width: 300px;
+    }
+    .header-right {
+        display: flex;
+        flex-direction: row;
+        max-width: min-content;
     }
 }
