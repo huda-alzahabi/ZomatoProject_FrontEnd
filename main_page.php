@@ -85,6 +85,7 @@
 
             </div>
         </div>
+        <a href="#"><h5>View All Restaurants</h5></a>
     </section>
 
     <!--Section 4: Contact Us-->
