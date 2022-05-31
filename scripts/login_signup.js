@@ -56,7 +56,7 @@ function loginToMain() {
     data.append("login_pass", login_pass);
     axios({
         method: "post",
-        url: "http://localhost:8080/ZomatoProject_BackEnd/login.php",
+        url: "http://localhost/ZomatoProject_BackEnd/login.php",
         data: data,
     }).then(function(response) {
         let result = response.data;
@@ -64,10 +64,10 @@ function loginToMain() {
         let type = result.type;
         if (type == 1) {
             location.href =
-                "http://localhost:8080/ZomatoProject_FrontEnd/view_users.php";
+                "http://localhost/ZomatoProject_FrontEnd/view_users.php";
         } else {
             location.href =
-                "http://localhost:8080/ZomatoProject_FrontEnd/main_page.php";
+                "http://localhost/ZomatoProject_FrontEnd/main_page.php";
         }
         localStorage.setItem("user_id", result.id);
     });

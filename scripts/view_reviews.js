@@ -13,12 +13,18 @@ function viewReviews() {
 
       viewClone.querySelector("#stars").innerText = response.data[i]["stars"];
 
-      viewClone.querySelector("#reviews").innerText =
-        response.data[i]["reviews"];
+      viewClone.querySelector("#reviews").innerText =response.data[i]["reviews"];
+
+      viewClone.querySelector("#restaurant_id").innerText =response.data[i]["restaurant_id"];
+      
+     
+
+      
 
       document.body.appendChild(viewClone);
     }
     document.querySelector("#view").remove;
+    document.querySelector("#monitor").innerText = "Monitor"
   });
 }
 viewReviews();

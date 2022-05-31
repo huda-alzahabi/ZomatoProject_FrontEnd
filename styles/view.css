@@ -3,10 +3,12 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-
-  margin-left: 350px;
+  position: relative;
+  margin-left: 250px;
   margin-right: auto;
   margin-top: 10px;
+  width: 900px;
+  
 }
 
 table,
