@@ -9,7 +9,7 @@ function editProfile() {
     data.append("login_pass", email);
     axios({
         method: "post",
-        url: "http://localhost:8080/ZomatoProject_BackEnd/edit_profile.php",
+        url: "http://localhost:8080/ZomatoProject_BackEnd/editprofile.php",
         data: data,
     }).then(function(response) {
         console.log(response);
