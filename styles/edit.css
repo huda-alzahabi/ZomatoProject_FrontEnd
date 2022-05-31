@@ -15,8 +15,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 450px;
-      min-height: 600px;
+      width: 400px;
+      height: 500px;
       background: burlywood;
       border-radius: 10px;
       padding: 40px;
@@ -91,13 +91,6 @@
       width: 100%;
       cursor: pointer;
   }
-  
-  @media screen and (max-width: 900px) {
-      body {
-          background-size: cover;
-          position: center;
-      }
-  }
   /*Styles for change password*/
   
   .editBox input[type="password"],
@@ -124,4 +117,11 @@
   .editBox input[type="password"]:focus,
   .editBox input[type="password"]:focus {
       border-bottom: 2px solid rgb(131, 66, 66);
+  }
+  
+  @media only screen and (max-width: 900px) {
+      body {
+          background-size: cover;
+          position: center;
+      }
   }
