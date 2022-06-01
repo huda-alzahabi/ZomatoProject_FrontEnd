@@ -1,3 +1,5 @@
+document.getElementById("update").addEventListener("click", editProfile);
+
 function editProfile() {
     /*Defining variables*/
     let name = document.getElementById("fullname").value;
@@ -5,8 +7,8 @@ function editProfile() {
     let data = new FormData();
 
     /*Append the variables set by the user to the Form Data to send them to url*/
-    data.append("login_email", name);
-    data.append("login_pass", email);
+    data.append("fullname", name);
+    data.append("login_email", email);
     axios({
         method: "post",
         url: "http://localhost:8080/ZomatoProject_BackEnd/editprofile.php",
@@ -15,4 +17,3 @@ function editProfile() {
         console.log(response);
     });
 }
-editProfile();

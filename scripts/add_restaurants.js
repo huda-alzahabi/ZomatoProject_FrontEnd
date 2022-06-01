@@ -1,5 +1,3 @@
-
-
 //addRestaurants() Allows the admin to add resaturants
 
 function addRestaurants() {
@@ -29,7 +27,7 @@ function addRestaurants() {
 
         axios({
             method: "post",
-            url: "http://localhost/ZomatoProject_BackEnd/add_restaurants.php",
+            url: "http://localhost:8080/ZomatoProject_BackEnd/add_restaurants.php",
             data: data,
         }).then(function(response) {
             document.getElementById("name").value = "";
@@ -38,8 +36,7 @@ function addRestaurants() {
             let result = response.data;
             let message = result.status;
             if (message == "Message Sent!") {
-             alert("Restaurant Added!");
-                
+                alert("Restaurant Added!");
             }
         });
     });

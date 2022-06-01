@@ -3,7 +3,7 @@
 function viewUsers() {
     axios({
         method: "GET",
-        url: "http://localhost/ZomatoProject_BackEnd/view_users.php",
+        url: "http://localhost:8080/ZomatoProject_BackEnd/view_users.php",
     }).then(function(response) {
         for (let i = 0; i < response.data.length; i++) {
             var view = document.querySelector("#tab");

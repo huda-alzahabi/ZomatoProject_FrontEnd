@@ -38,8 +38,7 @@ function showSignUp() {
             data: data,
         }).then(function(response) {
             console.log(response);
-            location.href =
-                "http://localhost:8080/ZomatoProject_FrontEnd/main_page.php";
+            location.href = "http://127.0.0.1:5500/index.html";
         });
     });
 }
